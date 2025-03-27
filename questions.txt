@@ -1,9 +1,10 @@
-4. Alex rents a motorbike for one day. The rental charge is $18 per day plus 12 cents per mile. If Alex has exactly $30 to spend, how many miles can he ride the motorbike?
-
-2. A teacher ordered 8 new boxes of pencils for her classroom. Each box contained 16 pencils. She combined all the pencils and then split them evenly among 4 student tables. How many pencils did each table receive?
-
-3. Beatrice took 20 liters of drinking water on a camping trip. Each day, she uses 2.5 liters. After some days, only 5 liters of water remained. How many days has Beatrice been camping?
-
-5. Christina sold 1/4 of her dresses and then bought 2 more dresses. She now has 5 dresses. How many dresses did Christina have initially?
-
 1. Brandon works at a bookstore where he gets paid $12 per hour. On Tuesday after work, he spent $15.40 on a book and was left with $80.60 from his paycheck for that day. How many hours did Brandon work that day?
+
+2. A teacher ordered 8 new boxes of pencils for her classroom. Each box of pencils had 16 pencils. She decided to combine all of the pencils and then split them evenly between the 4 student tables in the room. How many pencils will each table get?
+
+3. Dwayne is taking a drawing class. He buys drawing pencils that cost 97 cents each and one sketchbook that costs $5.95. Dwayne spent $11.77 before tax. How many drawing pencils did he buy?
+
+4. Alex rents a motorbike for one day. The charge to rent a motorbike is $18 per day plus 12 cents per mile. Alex has exactly $30 to spend. How many miles can he ride the motorbike?
+
+5. Mike sold 3/4 of his comic books and then bought 9 more. He now has 16. How many books did he have to begin with?
+

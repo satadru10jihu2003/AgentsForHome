@@ -1,18 +1,50 @@
-from agents import Agent, Runner, WebSearchTool, handoffs
+from agents import Agent, Runner, WebSearchTool, function_tool
 
-def read_file(file_path):
-    with open(file_path, "r") as file_content:
+@function_tool 
+async def read_file(file_name: str) -> str:
+    """Read the contents of a file.
+    
+    Args:
+        file_name: The name to the file to read.
+
+    Returns:
+        The content of the file.
+    """
+    with open(file_name, "r") as file_content:
         return file_content.read()
+
+@function_tool
+def append_file(content : str):
+    """Append the content to a file."
+
+    Args:
+        content: The content to append to the file.
+        
+    """
+    with open("questions.txt", "a") as file_content:
+        file_content.write(content + "\n")
+
+persist_agent = Agent(
+    name="Persist Agent",
+    model="gpt-4o",
+    instructions="You are a helpful assistant who appends the input to a given file. "
+    "You will append the questions provided in the input text to a file named questions.txt. "
+    "Then print the questions and answers.",
+    tools=[append_file]
+)
 
 validation_agent = Agent(
     name="Validation Agent",
     model="gpt-4o",
     instructions="You are a helpful validation assistant. "
-    f"You will validate the questions provided in the input text if they are similar to pre existing questions defined in {read_file("questions.txt")}",
-    tools=[WebSearchTool()]
+    "First read the pre existing questions from the file 'questions.txt'."
+    "Then you will validate the questions provided in the input text if they are same as pre existing questions. "
+    "If the questions are same, provide the response as 'The questions are same' else handoff to the persist agent to append the questions to the file."
+    "If there are no pre existing questions, handoff to the persist agent to append the questions to the file.",
+    tools=[read_file],
+    handoffs=[persist_agent]
 )
 
-# Research Agent (unchanged)
 research_agent = Agent(
     name="Research Agent",
     model="gpt-4o",
@@ -20,7 +52,8 @@ research_agent = Agent(
     "You will research the web for sample questions and answers for a particular maths topic. "
     "Provide the questions first and then the answers in separate sections."
     "For answers Do not provide the solution, just the answer."
-    "After retrieving questions handoff to the Validation Agent to validate if the questions are similar to pre existing questions.",
+    "Print the questions first and then the answers."
+    "After retrieving questions handoff to the Validation Agent to validate if the questions are same as pre existing questions.",
     handoffs=[validation_agent],
     tools=[WebSearchTool()]
 )
