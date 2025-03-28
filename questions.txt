@@ -1,10 +1,116 @@
+
+1. The sum of three times a number x and 5 is 17. What is the number?
+2. As a membership fee, a health club charges a one-time amount of $40 and charges $25 for each month. The total fee after m months is $240. What is the value of m?
+3. A runner warms up for ten minutes and then takes seven minutes to run each mile. The total time after r miles is 45 minutes. How many miles are run?
+4. Jaimie picks out a blouse to purchase. It is on sale for 25% off plus she has got $10 off coupon. She pays $23 for the blouse. Determine the original price.
+5. Michael is collecting sea glass from the beach. He begins with 14 pieces in his collection and adds 3 new pieces per day. Determine how many days it will take Michael to have 80 pieces of sea glass in his collection.
+
+
+1. Tom’s brother buys three tickets to a baseball game but does not tell Tom how much each ticket costs. Tom knows the total price of all the tickets was $250, including a flat $10 processing fee. What is the cost of one ticket?
+
+2. Four boutiques decide to host a Fall Fashion Market and will split the profits evenly. They paid a $50 fee for a portable toilet from the profits. After this expense, each boutique took home $400. What was the total profit made at the event?
+
+3. A teacher ordered 8 new boxes of pencils for her classroom. Each box contained 16 pencils. She combined all the pencils and split them evenly between the 4 student tables in the room. How many pencils did each table get?
+
+4. Michael is collecting sea glass from the beach. He begins with 14 pieces in his collection and adds 3 new pieces per day. How many days will it take Michael to have 80 pieces of sea glass in his collection?
+
+5. Jacob joined a gym last year. His total bill for the year was $410, including a monthly membership fee and a one-time $50 enrollment fee. What is Jacob's monthly membership fee?
+
+Answers:
+
+1. The cost of one ticket is $80.
+
+2. The total profit made at the event was $1,650.
+
+3. Each table received 32 pencils.
+
+4. It will take Michael 22 days to have 80 pieces of sea glass.
+
+5. Jacob's monthly membership fee is $30.
+
+6. Brandon works at a bookstore where he gets paid $12 per hour.\nOn Tuesday after work, he spent $15.40 on a book and was left\nwith $80.60 from his paycheck for that day. How many hours\ndid Brandon work that day?\n
+7. Beatrice took 20 liters of drinking water\non a camping trip. Each day, she uses 2.5 liters.\nAfter some days, only 5 liters of water remained.\nHow many days has Beatrice been camping?
+
+8. Alex rents a motorbike for one day.\nThe rental charge is $18 per day plus 12 cents per mile.\nAlex has exactly $30 to spend.\nHow many miles can he ride the motorbike?\n
+9. Christina sold 1/4 of her dresses\nand then bought 2 more dresses.\nShe now has 5 dresses.\nHow many dresses did Christina have initially?\n\nAnswers:\n\n6. Brandon worked 8 hours that day.\n\n7. Beatrice has been camping for 6 days.\n\n8. Alex can ride the motorbike for 100 miles.\n\n9. Christina initially had 4 dresses.
 1. Brandon works at a bookstore where he gets paid $12 per hour. On Tuesday after work, he spent $15.40 on a book and was left with $80.60 from his paycheck for that day. How many hours did Brandon work that day?
 
 2. A teacher ordered 8 new boxes of pencils for her classroom. Each box of pencils had 16 pencils. She decided to combine all of the pencils and then split them evenly between the 4 student tables in the room. How many pencils will each table get?
 
-3. Dwayne is taking a drawing class. He buys drawing pencils that cost 97 cents each and one sketchbook that costs $5.95. Dwayne spent $11.77 before tax. How many drawing pencils did he buy?
+3. Beatrice took 20 liters of drinking water on a camping trip. Each day, she uses 2.5 liters. After some days, only 5 liters of water remained. How many days has Beatrice been camping?
 
 4. Alex rents a motorbike for one day. The charge to rent a motorbike is $18 per day plus 12 cents per mile. Alex has exactly $30 to spend. How many miles can he ride the motorbike?
 
 5. Mike sold 3/4 of his comic books and then bought 9 more. He now has 16. How many books did he have to begin with?
+
+Answers:
+
+1. Brandon worked 8 hours that day.
+
+2. Each table will get 32 pencils.
+
+3. Beatrice has been camping for 6 days.
+
+4. Alex can ride the motorbike for 100 miles.
+
+5. Mike originally had 28 comic books.
+
+1. Brandon works at a bookstore where he gets paid $12 per hour. On Tuesday after work, he spent $15.40 on a book and was left with $80.60 from his paycheck for that day. How many hours did Brandon work that day?
+
+Answer: Brandon worked 8 hours that day.
+
+2. Alda’s school is 1,200 yards from her house. She walks at a constant speed of 150 yards per minute. How long will it take her to be 450 yards away from school?
+
+Answer: It will take Alda 5 minutes to be 450 yards away from school.
+
+3. Beatrice took 20 liters of drinking water on a camping trip. Each day, she uses 2.5 liters. After some days, only 5 liters of water remained. How many days has Beatrice been camping?
+
+Answer: Beatrice has been camping for 6 days.
+
+4. Dwayne buys drawing pencils that cost 97 cents each and a sketchbook for $5.95. He spent $11.77 before tax. How many drawing pencils did he buy?
+
+Answer: Dwayne bought 6 drawing pencils.
+
+5. Alex rents a motorbike for one day. The charge is $18 per day plus 12 cents per mile. Alex has exactly $30 to spend. How many miles can he ride the motorbike?
+
+Answer: Alex can ride the motorbike for 100 miles.
+
+1. Sarah bought 3 identical notebooks and a pen for a total of $18. The pen cost $3. How much did each notebook cost?
+
+2. A gym charges a monthly fee of $25 plus $10 per class attended. If John paid $75 in total last month, how many classes did he attend?
+
+3. A rectangle's length is twice its width. If the perimeter of the rectangle is 36 meters, what are its dimensions?
+
+4. Emma spent $45 on 3 shirts and 2 pairs of pants. Each pair of pants cost $10. How much did each shirt cost?
+
+5. A taxi company charges a base fare of $5 plus $2 per mile. If a ride cost $21, how many miles was the ride?
+
+Answers:
+
+1. Each notebook cost $5.
+
+2. John attended 5 classes.
+
+3. The rectangle's width is 6 meters, and its length is 12 meters.
+
+4. Each shirt cost $5.
+
+5. The ride was 8 miles long.
+1. Brandon works at a bookstore where he gets paid $12 per hour. On Tuesday after work, he spent $15.40 on a book and was left with $80.60 from his paycheck for that day. How many hours did Brandon work that day?
+
+2. A teacher ordered 8 new boxes of pencils for her classroom. Each box contained 16 pencils. She combined all the pencils and then split them evenly among 4 student tables. How many pencils did each table receive?
+
+3. Tom’s brother bought three tickets to a baseball game, with a total cost of $250, including a $10 processing fee. How much did each ticket cost?
+
+4. Beatrice took 20 liters of drinking water on a camping trip. Each day, she uses 2.5 liters. After some days, only 5 liters of water remained. How many days has Beatrice been camping?
+
+5. Alex rents a motorbike for one day. The rental charge is $18 per day plus 12 cents per mile. If Alex has exactly $30 to spend, how many miles can he ride the motorbike?
+
+Answers:
+
+1. Brandon worked 8 hours that day.
+2. Each table received 32 pencils.
+3. Each ticket cost $80.
+4. Beatrice has been camping for 6 days.
+5. Alex can ride the motorbike for 100 miles.
 

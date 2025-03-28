@@ -37,9 +37,9 @@ validation_agent = Agent(
     name="Validation Agent",
     model="gpt-4o",
     instructions="You are a helpful validation assistant. "
-    "First read the pre existing questions from the file 'questions.txt'."
-    "Then you will validate the questions provided in the input text if they are same as pre existing questions. "
-    "If the questions are same, provide the response as 'The questions are same' else handoff to the persist agent to append the questions to the file."
+    "First read the text from the file 'questions.txt'."
+    "Then you will validate the questions provided in the input text if they are present in the text. "
+    "If yes, then respond exactly as 'The questions are same' else handoff to the persist agent to append the questions to the file."
     "If there are no pre existing questions, handoff to the persist agent to append the questions to the file.",
     tools=[read_file],
     handoffs=[persist_agent]
@@ -58,23 +58,22 @@ research_agent = Agent(
     tools=[WebSearchTool()]
 )
 
-# Create a vector store
-#vector_store = create_vector_store()
+while True:
+    research_results = Runner.run_sync(research_agent, f"Provide 5 questions with answers on two step equations word problems.")
+    research_info = research_results.final_output
 
-# Add the file to the vector store
-#file_id = open_file("questions.txt")
-#add_file_to_vector_store(vector_store, file_id)
+    print(f"Research Agent Response: {research_info}")
 
-# Check the status of the vector store
-#check_status(vector_store)
-
-research_results = Runner.run_sync(research_agent, f"Provide 5 questions with answers on two step equations word problems.")
-research_info = research_results.final_output
+    if "The questions are same" in research_info:
+        print("inside if")
+        research_results = Runner.run_sync(research_agent, f"Provide 5 questions with answers on two step equations word problems.")
+        research_info = research_results.final_output
+    else:
+        break
 
 # preexisting_questions = read_file("questions.txt")
 
 # validation_results = Runner.run_sync(validation_agent, f"Validate if any of the questions in the text {research_info} are similar to the pre existing questions provided here : {preexisting_questions}.")
 # validation_info = validation_results.final_output
 
-print(f"Research Agent Response: {research_info}")
 # print(f"Validation Agent Response: {validation_info}")
